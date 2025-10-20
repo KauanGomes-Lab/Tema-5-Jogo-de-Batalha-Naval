@@ -10,7 +10,7 @@ void label() { ql(2); printf("     Tabuleiro Batalha Naval :"); ql(5); } // Fun�
 void espaco() { printf("           "); } // Função Para Printar Espaço na Tela Apenas Para Fins de Estetica.
 
 // Função Para Printar o Nome do Criador na Tela.
-void criador() { printf("© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab ) © "); ql(2); }
+void criador() { printf("© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab )  |  Linkedin: (  ) © "); ql(2); }
 
 int main() {
 
