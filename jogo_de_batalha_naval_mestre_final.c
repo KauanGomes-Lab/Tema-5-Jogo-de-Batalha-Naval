@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-#define LINHA 10
-#define COLUNA 10
+#define LINHA 10  // Definindo Valor das Linhas.
+#define COLUNA 10 // Definindo Valor das Colunas.
 
 void ql( int a ) { for ( int i = 0 ; i < a ; i++ ) { printf("\n"); } } // Função Para Printar Quebra de Linha na Tela.
 
-void label() { ql(2); printf("     Tabuleiro Batalha Naval :"); ql(5); } // Função Para Printar a Label na Tela.
+void label() { ql(2); printf("     Tabuleiro Batalha Naval - Mestre:"); ql(5); } // Função Para Printar a Label na Tela.
 
 void espaco() { printf("           "); } // Função Para Printar Espaço na Tela Apenas Para Fins de Estetica.
 
 // Função Para Printar o Nome do Criador na Tela.
-void criador() { printf("© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab )  |  Linkedin: (  ) © "); ql(2); }
+void criador() { printf("© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab ) © "); ql(2); }
 
 int main() {
 
